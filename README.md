@@ -13,9 +13,8 @@ This project focuses on streamlining the process of forecasting energy consumpti
 - [Results and Findings](#-results-and-findings)
 - [Additional Documentation](#-additional-documentation)
 - [Acknowledgments](#-acknowledgments)
-- [License](#-license)
-- [Contributing](#️-contributing)
 - [Contact](#-contact)
+- [Related Publication](#-related-publication)
 - [Citation](#-citation)
 
 ## 📌 Introduction
@@ -74,9 +73,6 @@ Follow these simplified steps to set up the project:
 8. **Monitor with MLflow**: Keep track of experiments using MLflow in Databricks.
 
 9. **Deploy the Model**: After training, deploy the model as per the documentation.
-
-
-## 🔍 Aim of the Project
 
 ## 🎯 Aim of the Project
 
