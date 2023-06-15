@@ -1,7 +1,5 @@
 # Streamlining Energy Consumption Forecasting using MLOps
 
-![Banner Image](path/to/banner/image.png)
-
 This project focuses on streamlining the process of forecasting energy consumption by employing Machine Learning Operations (MLOps). It integrates data engineering, machine learning algorithms, and automation to create a scalable and efficient forecasting system.
 
 [![Generic badge](https://img.shields.io/badge/Status-Complete-green.svg)](https://shields.io/)
