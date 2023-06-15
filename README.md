@@ -146,20 +146,60 @@ For a more in-depth analysis of the results and findings, please refer to the de
 
 
 ## 📘 Additional Documentation
-- [Link to additional documentation](path/to/additional/documentation)
+
+For a deep dive into the various aspects of this project, additional documentation is provided. This documentation covers topics such as data collection, detailed data analysis, technical implementation, and much more.
+
+### Technical Documentation
+
+Contains comprehensive details on the setup, implementation, and technical aspects of the project. If you are a developer or someone interested in the codebase, this documentation will be very useful.
+
+[🔗 View Technical Documentation](./technical-documentation.md)
+
+### Data Analysis Report
+
+A thorough analysis of the dataset used in this project. Includes various visualizations and statistical analysis to understand the data better.
+
+[🔗 View Data Analysis Report](./data-analysis-report.md)
+
+### Model Evaluation and Performance
+
+Detailed evaluation of the forecasting models, including how they were trained, tested, and evaluated. Also, includes a detailed discussion on the performance metrics.
+
+[🔗 View Model Evaluation and Performance Documentation](./model-evaluation-documentation.md)
+
+### User Guide
+
+A guide for end-users on how to interact with the forecasting system. Includes instructions on how to retrieve forecasts, interpret results, and troubleshoot common issues.
 
 ## 🙏 Acknowledgments
-- Acknowledge any individuals or organizations that contributed to this project.
 
-## 📄 License
-- Include licensing information here.
-
-## 🖊️ Contributing
-- Explain how others can contribute to this project. Detail the process for submitting pull requests or opening issues.
+This project was conducted as part of my thesis at the Athens University of Economics and Business, Department of Management Science and Technology.
 
 ## 👥 Contact
-- Provide contact information or links to your social media profiles.
+
+If you have any questions or would like to discuss this project, feel free to reach out:
+
+- LinkedIn: [linkedin-profile](www.linkedin.com/in/fpriovoloss)
+- Email: filippos.priovolos01@gmail.com
+
+## 📝 Related Publication
+
+This project is also the subject of a research paper that combines a theoretical and empirical approach. The paper dives into the details of the MLOps methodologies, techniques, and analysis involved in forecasting energy consumption with Azure Databricks 
+
+- **Title**: "Streamlining MLOps for Energy Consumption Forecasting, A Case Study"
+- **Authors**: Filippos Priovolos
+If you use the content of this repository or the related paper in your research, please consider citing as shown in the citation section.
+
 
 ## 🧾 Citation
-- If applicable, provide a citation format for others who use this project in their research.
+
+If you use this project in your research or want to refer to it, please attribute it as follows:
+
+```bibtex
+@misc{author2023energy,
+  title={Streamlining MLOps for Energy Consumption Forecasting, A Case Study},
+  author={Filippos Priovolos},
+  year={2023},
+}
+
 
