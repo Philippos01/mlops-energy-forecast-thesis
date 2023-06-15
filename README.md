@@ -4,6 +4,9 @@ This project focuses on streamlining the process of forecasting energy consumpti
 
 [![Generic badge](https://img.shields.io/badge/Status-Complete-green.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Databricks-Powered-blue.svg)](https://shields.io/)
+[![made-with-azure](https://img.shields.io/badge/Made%20with-Azure-1f425f.svg)](https://azure.microsoft.com/)
+[![made-with-databricks](https://img.shields.io/badge/Made%20with-Databricks-orange.svg)](https://www.databricks.com/)
+
 
 ## Table of Contents
 - [Introduction](#-introduction)
