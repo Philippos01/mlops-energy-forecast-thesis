@@ -1,4 +1,4 @@
-# Energy Consumption Forecasting across European Countries using Azure Databricks and MLflow 🌍⚡
+# Streamlining Energy Consumption Forecasting using MLOps (Technical Documentation)
 
 ![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
