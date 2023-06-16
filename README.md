@@ -65,7 +65,7 @@ Follow these simplified steps to set up the project:
 
 3. **Install Requirements**: Navigate to the project directory and install the required libraries using the requirements.txt file.
 ```
-cd mlops-energy-forecast-thesis
+cd mlops-energy-forecast-thesis/Utils
 pip install -r requirements.txt
 ```
 
@@ -85,21 +85,21 @@ pip install -r requirements.txt
 
 ## 🎯 Aim of the Project
 
-The primary aim of this project is to create a robust and scalable solution for forecasting energy consumption across 11 European countries (Belgium, Denmark, France, Germany, Greece, Italy, Luxembourg, Netherlands, Spain, Sweden, Switzerland) on an hourly basis. The motivation behind forecasting energy consumption is to help utilities, grid operators, and consumers in these countries in better planning and managing energy resources which is crucial for sustainability and efficiency.
+This project aims to implement a data-driven approach for forecasting energy consumption across 11 European countries (Belgium, Denmark, France, Germany, Greece, Italy, Luxembourg, Netherlands, Spain, Sweden, Switzerland) on an hourly basis using Azure Databricks. The technical steps encompassed in the project are as follows:
 
-Here are the specific objectives that this project aims to accomplish:
+* **Data Acquisition** : Automate the process of downloading energy consumption data from the ENTSO-E Transparency Platform, an authoritative source for European energy market data. This project utilizes manual downloads and uploads to Databricks, but this process can be automated for future scalability.
 
-- **Automate Data Acquisition**: The project automates the process of acquiring the relevant energy consumption data from the ENTSO-E Transparency Platform, which is an authoritative source for European energy market data.
+* **Data Processing and Feature Engineering**: Handle any missing or inconsistent data and engineer new features that might improve the performance of the forecasting models. This involves processing the raw data to format it appropriately for machine learning models.
 
-- **Data Processing and Feature Engineering**: Processing the raw data to engineer features that are significant for forecasting models. This includes handling any missing or inconsistent data and engineering new features that might improve the performance of the forecasting models.
+* **Model Building**: Develop forecasting models using machine learning algorithms such as XGBoost and LSTM (Long Short-Term Memory networks) to predict energy consumption patterns. The choice of algorithms is based on their proven performance in time-series forecasting tasks.
 
-- **Model Building and Evaluation**: Building forecasting models using various machine learning algorithms. These models are then evaluated using relevant metrics to quantify their performance.
+* **Model Evaluation**: Evaluate the performance of the forecasting models using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²). This helps in quantifying how well the models are performing.
 
-- **Scalability and Performance**: The solution is built on the Azure cloud and Databricks platform to ensure that it is scalable and can handle large volumes of data efficiently.
+* **Deployment and Monitoring**: Save the chosen model in Feature Store and make it available for inference within Databricks. Incorporate monitoring tools to track the model’s performance over time and ensure it stays within acceptable limits. This approach facilitates a seamless integration within the Databricks ecosystem, enabling easy access and utilization of the model for forecasting purposes.
 
-- **Deployment and Monitoring**: Once a suitable model is developed, it is deployed to make forecasts available for end-users. Additionally, the project incorporates monitoring tools to keep track of the model’s performance over time.
+* **Scalability and Performance**: Leverage the Azure cloud and Databricks platform to ensure that the implemented solution can handle large volumes of data efficiently. This enables the project to scale with the addition of new data or expansion to more countries.
 
-By achieving these objectives, the project contributes to the broader goal of optimizing energy consumption, which has substantial economic and environmental benefits.
+By successfully implementing these technical steps, this project contributes to the larger goal of enabling better energy management and planning through data-driven insights and forecasts.
 
 For a comprehensive and in-depth analysis of the project's objectives and how it achieves them, please refer to the detailed documentation:
 
