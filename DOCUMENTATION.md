@@ -29,20 +29,20 @@ This includes converting timestamps to a standardized format, aggregating data, 
 In this project, hourly energy consumption data is used; however, it is possible to aggregate this data for different time windows (e.g., daily) based on the requirements.
 
 ### Data Quality Checks:
-Quality checks are essential to ensure that the data is accurate and complete. This involves handling missing values, identifying and correcting any inconsistencies in the data, and ensuring that it meets the required standards for analysis.
-In this project, several checks are implemented to handle common data quality issues.
 
-To take a closer look at the data quality reports, please follow the steps below to view the HTML files on your local machine:
+Quality checks are essential to ensure the integrity and completeness of the data. This includes handling missing values, identifying and rectifying any inconsistencies in the data, and ensuring that it meets the required standards for analysis. 
 
-**Open the HTML files** in your preferred web browser. You can do this by simply double-clicking the HTML files, or by dragging and dropping them into an open browser window.
+In this project, the primary tool utilized for this purpose is [Great Expectations](https://greatexpectations.io/), an open-source library for setting, validating, and documenting data expectations. 
 
-#### Links to HTML files:
+Great Expectations was instrumental in defining expectations for data, which serve as automated assertions about data quality that are easy to implement and maintain. If any data does not meet these predefined expectations, the system alerts us, thereby ensuring that any decision made based on the data is as accurate as possible.
 
-- [**Data Quality Expectations**]([MLOps Pipeline/Utils/Great Expectations/my_expectation_suite.html](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Great%20Expectations/my_expectation_suite.html)) (Right-click and choose 'Open with' -> Your preferred browser)
-  
-- [**Data Quality Validation**](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Great%20Expectations/fde64798683368bcaf8fe113b0dd4b14.html) (Right-click and choose 'Open with' -> Your preferred browser)
+For an example of the data quality reports produced by Great Expectations in this project, see the links below:
 
-*Please ensure that you have all the necessary dependencies (such as CSS or JavaScript files) available in the local directory structure.*
+#### Links to Data Quality report files:
+
+- [**Data Quality Expectations**](https://philippos01.github.io/mlops-energy-forecast-thesis/MLOps%20Pipeline/Utils/Great%20Expectations/fde64798683368bcaf8fe113b0dd4b14.html)
+- [**Data Quality Validation**](https://philippos01.github.io/mlops-energy-forecast-thesis/MLOps%20Pipeline/Utils/Great%20Expectations/my_expectation_suite.html)
+
 
 ## 🚀 Initial Deployment
 
