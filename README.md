@@ -102,7 +102,7 @@ By successfully implementing these technical steps, this project contributes to 
 
 For a comprehensive and in-depth analysis of the project's objectives and how it achieves them, please refer to the detailed documentation:
 
-[📄 Read the Detailed Documentation](./Documentation.md)
+[📄 Read the Detailed Documentation](./DOCUMENTATION.md)
 
 ## 📈 Results and Findings
 
@@ -142,10 +142,6 @@ The current deployed model was evaluated based on various metrics such as Mean S
 - **Training Time**: 134.2 sec
 
 These findings and insights are instrumental for utility companies, policy-makers, and consumers in making informed decisions regarding energy consumption, production, and resource allocation.
-
-For a more in-depth analysis of the results and findings, please refer to the detailed documentation.
-
-[📄 Read the Detailed Documentation](./Documentation.md)
 
 ## 🙏 Acknowledgments
 
