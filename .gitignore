@@ -1,0 +1,74 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databricks notebook files
+*.dbc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Pip related
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Setuptools distribution folder
+/dist/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Log files
+*.log
+
+# Data files
+*.csv
+*.xlsx
+*.db
+
+# Directories with large data files
+data/
+model/
+
+# Configuration files
+*.cfg
+*.ini
+
+# Keys and secrets
+*.pem
+*.key
+*.secret
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
