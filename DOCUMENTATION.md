@@ -152,6 +152,25 @@ In the context of MLOps, deployment is a critical phase where the machine learni
 ### Scalability and Performance:
 - Databricks, known for its high-performance analytics engine, is particularly suited for handling large datasets and complex computations. By deploying the model within Databricks, we leverage its ability to scale effortlessly to meet data and computational demands.
 
+# 🔄 Workflow Overview
+
+In this project, we have established three main workflows that are integral to the systematic functioning and updating of the energy consumption forecasting system:
+
+## 1.  Initial Deployment / Redeployment
+
+This workflow encompasses all the steps necessary for the initial deployment of the model, as well as any subsequent redeployments. It includes data engineering, exploratory data analysis, feature engineering, model training, and performance evaluation. This workflow is initiated manually and ensures that the model is properly set up and integrated into the Azure Databricks and MLflow ecosystem.
+
+## 2.  Daily Inference
+
+The Daily Inference workflow is automated and triggered every day. Its purpose is to forecast the energy consumption for the next day. This workflow starts by retrieving new data from the database and processing it to be compatible with the model. Through the batch scoring function of the feature store, predictions are generated and subsequently saved back into the database for further analysis and utilization.
+
+## 3. Model Retraining
+
+The Model Retraining workflow is designed to ensure that the forecasting model remains up-to-date and incorporates the latest data for higher accuracy. This workflow is automatically triggered every three months. During this process, the model is retrained using newly collected data that has been saved during the Daily Inference workflow. After the retraining process, the model's performance is evaluated and compared to the current production model. If the retrained model exhibits improved performance, it replaces the existing production model, which is then archived.
+
+These workflows are designed to work seamlessly together to provide an efficient, scalable, and up-to-date energy consumption forecasting system. Through automation and systematic processes, this setup ensures accuracy and sustainability in forecasting energy consumption across multiple European countries.
+
+
 ## Overall Architecture
 ![MLOps Architecture](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Images/MLOps%20Architecture%20(1).png)
 ## 🎉 Conclusion
