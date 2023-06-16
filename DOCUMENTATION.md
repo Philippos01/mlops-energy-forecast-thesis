@@ -40,8 +40,9 @@ For an example of the data quality reports produced by Great Expectations in thi
 
 #### Links to Data Quality report files:
 
-- [**Data Quality Expectations**](https://philippos01.github.io/mlops-energy-forecast-thesis/MLOps%20Pipeline/Utils/Great%20Expectations/fde64798683368bcaf8fe113b0dd4b14.html)
-- [**Data Quality Validation**](https://philippos01.github.io/mlops-energy-forecast-thesis/MLOps%20Pipeline/Utils/Great%20Expectations/my_expectation_suite.html)
+- [**Data Quality Expectations**](https://philippos01.github.io/mlops-energy-forecast-thesis/MLOps%20Pipeline/Utils/Great%20Expectations/my_expectation_suite.html)
+  
+- [**Data Quality Validation**](https://philippos01.github.io/mlops-energy-forecast-thesis/MLOps%20Pipeline/Utils/Great%20Expectations/fde64798683368bcaf8fe113b0dd4b14.html)
 
 
 ## 🚀 Initial Deployment
