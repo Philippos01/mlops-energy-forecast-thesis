@@ -34,7 +34,7 @@ The end goal is to establish a robust, scalable, and automated solution that pro
 ### Data Source
 This project utilizes data from the ENTSO-E Transparency Platform, which provides comprehensive information on the European electricity market. To access the dataset, you will need to create an account on the ENTSO-E Transparency Platform. Once you have an account, you can access and download the dataset required for this project.
 
-[Create an account on ENTSO-E Transparency Platform](https://keycloak-transparency.entsoe.eu/realms/tp/login-actions/registration?client_id=tp-web&tab_id=KZA2clTzsYo)
+[Create an account on ENTSO-E Transparency Platform](https://keycloak-transparency.entsoe.eu/realms/tp/protocol/openid-connect/auth?response_type=code&client_id=tp-web&redirect_uri=https%3A%2F%2Ftransparency.entsoe.eu%2Fsso%2Flogin&state=7135aea4-5563-4a24-9fae-727dcee13294&login=true&scope=openid)
 
 ### Libraries and Dependencies
 This project is dependent on several libraries and frameworks. It's important to ensure that all of the necessary libraries are installed to be able to run the code seamlessly.
