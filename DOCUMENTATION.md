@@ -32,6 +32,17 @@ In this project, hourly energy consumption data is used; however, it is possible
 Quality checks are essential to ensure that the data is accurate and complete. This involves handling missing values, identifying and correcting any inconsistencies in the data, and ensuring that it meets the required standards for analysis.
 In this project, several checks are implemented to handle common data quality issues.
 
+To take a closer look at the data quality reports, please follow the steps below to view the HTML files on your local machine:
+
+* **Open the HTML files** in your preferred web browser. You can do this by simply double-clicking the HTML files, or by dragging and dropping them into an open browser window.
+
+#### Links to HTML files:
+
+- [**Data Quality Expectations**](./path_to_html_file1.html) (Right-click and choose 'Open with' -> Your preferred browser)
+- [**Data Quality Validation**](./path_to_html_file2.html) (Right-click and choose 'Open with' -> Your preferred browser)
+
+*Please ensure that you have all the necessary dependencies (such as CSS or JavaScript files) available in the local directory structure.*
+
 ## 🚀 Initial Deployment
 
 This section describes the critical steps undertaken during the initial deployment phase of the MLOps pipeline. The pipeline consists of an exploratory data analysis, feature engineering, model training, and unit testing.
