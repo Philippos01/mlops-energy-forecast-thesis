@@ -103,7 +103,7 @@ By successfully implementing these technical steps, this project contributes to 
 
 For a comprehensive and in-depth analysis of the project's objectives and how it achieves them, please refer to the detailed documentation:
 
-[📄 Read the Detailed Documentation](./documentation.md)
+[📄 Read the Detailed Documentation](./Documentation.md)
 
 ## 📈 Results and Findings
 
@@ -146,7 +146,7 @@ These findings and insights are instrumental for utility companies, policy-maker
 
 For a more in-depth analysis of the results and findings, please refer to the detailed documentation.
 
-[📄 Read the Detailed Documentation](./documentation.md)
+[📄 Read the Detailed Documentation](./Documentation.md)
 
 
 
