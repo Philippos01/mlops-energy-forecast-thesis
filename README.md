@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 This project aims to implement a data-driven approach for forecasting energy consumption across 11 European countries (Belgium, Denmark, France, Germany, Greece, Italy, Luxembourg, Netherlands, Spain, Sweden, Switzerland) on an hourly basis using Azure Databricks. The technical steps encompassed in the project are as follows:
 
-* **Data Acquisition** : Automate the process of downloading energy consumption data from the ENTSO-E Transparency Platform, an authoritative source for European energy market data. This project utilizes manual downloads and uploads to Databricks, but this process can be automated for future scalability.
+* **Data Acquisition** : Downlaod energy consumption data from the ENTSO-E Transparency Platform, an authoritative source for European energy market data. This project utilizes manual downloads and uploads to Databricks, but this process can be automated for future scalability.
 
 * **Data Processing and Feature Engineering**: Handle any missing or inconsistent data and engineer new features that might improve the performance of the forecasting models. This involves processing the raw data to format it appropriately for machine learning models.
 
