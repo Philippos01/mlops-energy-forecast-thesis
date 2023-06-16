@@ -153,8 +153,7 @@ In the context of MLOps, deployment is a critical phase where the machine learni
 - Databricks, known for its high-performance analytics engine, is particularly suited for handling large datasets and complex computations. By deploying the model within Databricks, we leverage its ability to scale effortlessly to meet data and computational demands.
 
 ## Overall Architecture
-![MLOps Architecture](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Thesis%20Pipeline/Utils/Images/MLOps%20Architecture%20(1).png)
-
+![MLOps Architecture](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Images/MLOps%20Architecture%20(1).png)
 ## 🎉 Conclusion
 
 This project efficiently addresses the challenge of forecasting energy consumption across multiple European countries. By employing Azure Databricks and MLflow, it leverages a powerful and scalable environment for data processing and model deployment. Continuous monitoring and automatic retraining ensure that the model remains accurate and up-to-date. 
