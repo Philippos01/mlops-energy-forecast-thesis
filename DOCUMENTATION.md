@@ -34,12 +34,13 @@ In this project, several checks are implemented to handle common data quality is
 
 To take a closer look at the data quality reports, please follow the steps below to view the HTML files on your local machine:
 
-* **Open the HTML files** in your preferred web browser. You can do this by simply double-clicking the HTML files, or by dragging and dropping them into an open browser window.
+**Open the HTML files** in your preferred web browser. You can do this by simply double-clicking the HTML files, or by dragging and dropping them into an open browser window.
 
 #### Links to HTML files:
 
-- [**Data Quality Expectations**](MLOps Pipeline/Utils/Great Expectations/my_expectation_suite.html) (Right-click and choose 'Open with' -> Your preferred browser)
-- [**Data Quality Validation**](MLOps Pipeline/Utils/Great Expectations/fde64798683368bcaf8fe113b0dd4b14.html) (Right-click and choose 'Open with' -> Your preferred browser)
+- [**Data Quality Expectations**]([MLOps Pipeline/Utils/Great Expectations/my_expectation_suite.html](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Great%20Expectations/my_expectation_suite.html)) (Right-click and choose 'Open with' -> Your preferred browser)
+  
+- [**Data Quality Validation**](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Great%20Expectations/fde64798683368bcaf8fe113b0dd4b14.html) (Right-click and choose 'Open with' -> Your preferred browser)
 
 *Please ensure that you have all the necessary dependencies (such as CSS or JavaScript files) available in the local directory structure.*
 
