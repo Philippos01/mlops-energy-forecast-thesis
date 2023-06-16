@@ -38,8 +38,8 @@ To take a closer look at the data quality reports, please follow the steps below
 
 #### Links to HTML files:
 
-- [**Data Quality Expectations**](./path_to_html_file1.html) (Right-click and choose 'Open with' -> Your preferred browser)
-- [**Data Quality Validation**](./path_to_html_file2.html) (Right-click and choose 'Open with' -> Your preferred browser)
+- [**Data Quality Expectations**](MLOps Pipeline/Utils/Great Expectations/my_expectation_suite.html) (Right-click and choose 'Open with' -> Your preferred browser)
+- [**Data Quality Validation**](MLOps Pipeline/Utils/Great Expectations/fde64798683368bcaf8fe113b0dd4b14.html) (Right-click and choose 'Open with' -> Your preferred browser)
 
 *Please ensure that you have all the necessary dependencies (such as CSS or JavaScript files) available in the local directory structure.*
 
