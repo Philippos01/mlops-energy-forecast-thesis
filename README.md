@@ -42,6 +42,7 @@ This project is dependent on several libraries and frameworks. It's important to
 You can install the required libraries using the <b>'requirements.txt'</b> file included in the repository. Run the following command:
 
 ```
+cd mlops-energy-forecast-thesis/MLOps Pipeline/Utils
 pip install -r requirements.txt
 ```
 
@@ -64,7 +65,7 @@ Follow these simplified steps to set up the project:
 
 3. **Install Requirements**: Navigate to the project directory and install the required libraries using the requirements.txt file.
 ```
-cd mlops-energy-forecast-thesis/Utils
+cd mlops-energy-forecast-thesis/MLOps Pipeline/Utils
 pip install -r requirements.txt
 ```
 
