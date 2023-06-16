@@ -61,21 +61,27 @@ Follow these simplified steps to set up the project:
 2. **Clone the Repository**: Clone this repository to your machine or Azure virtual machine.
 
    ```sh
-   git clone (https://github.com/Philippos01/mlops-energy-forecast-thesis.git)
+   git clone https://github.com/Philippos01/mlops-energy-forecast-thesis.git
 
-3. **Install Requirements**: In the project directory, run:
+3. **Install Requirements**: Navigate to the project directory and install the required libraries using the requirements.txt file.
+```
+cd mlops-energy-forecast-thesis
+pip install -r requirements.txt
+```
 
-4. **Set Up Databricks**: Log in to Databricks, create a new workspace, and import the project notebooks.
+4. **Set Up Databricks**: Log in to Databricks, and create a new workspace. Within the workspace, create a new cluster and make sure that it's running. Import the project notebooks into your workspace.
+   
+5. **Configure Azure**: In your Azure account, create a resource group. Within this resource group, create a Databricks workspace (if you haven't already during the Databricks setup) and configure the necessary resources such as storage accounts, networking, etc.
+   
+6. **Download and Import Dataset**: Log in to the ENTSO-E Transparency Platform and download the dataset. Import this dataset into Databricks.
+   
+7. **Run Notebooks** : In Databricks, open the notebooks and attach them to the cluster you created earlier. Run the cells in sequence, making sure to input your API keys when prompted.
 
-5. **Configure Azure**: In your Azure account, set up necessary resources and integrate Databricks.
+8. **Monitor with MLflow**: You can keep track of experiments, parameters, metrics, and artifacts using MLflow in Databricks.
 
-6. **Access Dataset**: Log in to ENTSO-E Transparency Platform, get API keys, and configure them in the project.
+9. **Deploy the Model**: After training and evaluating the model, follow the instructions in the documentation to deploy it for forecasting.
 
-7. **Run Notebooks**: In Databricks, open and run the notebooks.
-
-8. **Monitor with MLflow**: Keep track of experiments using MLflow in Databricks.
-
-9. **Deploy the Model**: After training, deploy the model as per the documentation.
+10. **Schedule Notebooks**: Optionally, you can schedule the notebooks to run periodically to automate data retrieval and model training.
 
 ## 🎯 Aim of the Project
 
