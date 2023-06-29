@@ -115,7 +115,7 @@ This section presents the results and findings obtained through the energy consu
 
 Explanatory data analysis is essential for understanding the patterns and trends in the dataset. Below is a plot illustrating daily energy consumption in Greece. The plot reveals seasonality and trends in energy consumption, which are crucial for accurate forecasting.
 
-![Greece Daily Energy Consumption](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Images/newplot.png)
+![Greece Daily Energy Consumption](MLOps\Pipeline/Utils/Images/newplot.png)
 *Daily Energy Consumption in Greece.*
 
 ### Average Hourly Consumption by Country and Hour of Day
