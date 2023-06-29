@@ -115,21 +115,21 @@ This section presents the results and findings obtained through the energy consu
 
 Explanatory data analysis is essential for understanding the patterns and trends in the dataset. Below is a plot illustrating daily energy consumption in Greece. The plot reveals seasonality and trends in energy consumption, which are crucial for accurate forecasting.
 
-![Greece Daily Energy Consumption](MLOps\Pipeline/Utils/Images/newplot.png)
+![Greece Daily Energy Consumption](MLOps%20Pipeline/Utils/Images/newplot.png)
 *Daily Energy Consumption in Greece.*
 
 ### Average Hourly Consumption by Country and Hour of Day
 
 The plot below provides insights into average hourly energy consumption by country and hour of day. This is crucial to understand which countries consume more energy at different times of the day and can guide resource allocation and energy production planning.
 
-![Average Hourly Consumption by Country and Hour of Day](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Images/newplot%20(1).png)
+![Average Hourly Consumption by Country and Hour of Day](MLOps%20Pipeline/Utils/Images/newplot%20(1).png)
 *Average Hourly Consumption by Country and Hour of Day.*
 
 ### Model Comparison: Daily Staging & Production Model Comparison for Greece
 
 To evaluate and select the best model for forecasting, we compared the daily staging and production models. The plot below illustrates how closely each model's predictions match the actual energy consumption data(For the sake of the example we illustrate data from Greece for the 1st week of April)
 
-![Daily Staging & Production Model Comparison for Greece](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Images/newplot%20(5).png)
+![Daily Staging & Production Model Comparison for Greece](MLOps%20Pipeline/Utils/Images/newplot%20(5).png)
 *Daily Staging & Production Model Comparison for Greece over one week.*
 
 ### Evaluation Metrics for Deployed Model
