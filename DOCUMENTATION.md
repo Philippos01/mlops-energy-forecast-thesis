@@ -184,7 +184,7 @@ These workflows are designed to work seamlessly together to provide an efficient
 
 
 ## Overall Architecture
-![MLOps Architecture](https://github.com/Philippos01/mlops-energy-forecast-thesis/blob/main/MLOps%20Pipeline/Utils/Images/MLOps%20Architecture%20(1).png)
+![MLOps Architecture](MLOps%20Pipeline/Utils/Images/MLOps%20Architecture%20(1).png)
 ## 🎉 Conclusion
 
 This project efficiently addresses the challenge of forecasting energy consumption across multiple European countries. By employing Azure Databricks and MLflow, it leverages a powerful and scalable environment for data processing and model deployment. Continuous monitoring and automatic retraining ensure that the model remains accurate and up-to-date. 
