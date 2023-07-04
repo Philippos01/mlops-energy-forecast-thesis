@@ -152,7 +152,7 @@ This project was conducted as part of my thesis at the Athens University of Econ
 
 If you have any questions or would like to discuss this project, feel free to reach out:
 
-- LinkedIn: [linkedin-profile](www.linkedin.com/in/fpriovoloss)
+- LinkedIn: [linkedin-profile](https://www.linkedin.com/in/fpriovolos/)
 - Email: filippos.priovolos01@gmail.com
 
 ## 📝 Related Publication
